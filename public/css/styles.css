@@ -1,0 +1,567 @@
+
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+};
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.main-header-top-bar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:90%;
+}
+
+
+header div.top-header p{
+    width:90%;
+    text-align:center
+}
+
+header{
+    background-color: #EAC926;
+    width: 90%;
+ 
+}
+
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*Lupa y Search*/
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+header .form{
+    display:flex;
+    align-items: center;
+    padding:2px;
+font-size: 12px;
+}
+
+.lupa-busqueda{
+    background-color: white;
+    width:1vw;
+    height:1vh;
+    box-sizing: content-box;
+    border: 1px solid black;
+    margin-left: 0;
+}
+
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+
+
+
+
+div.last-visit,div.offers{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color:#666
+}
+.products{
+background-color: #ebebeb
+}
+
+
+article div.main-article{
+    width: 100%;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+padding: 10px
+}
+
+
+header, .copy-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px, solid, black;
+    color:#666;
+    width:10%
+}
+
+
+
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 90%;
+}
+
+main{
+    width: 90%;
+}
+
+.main-header_home-link,
+.main-header-top-bar{
+  display: block;
+}
+
+.main-header-top-bar {
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main-navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lupa-busqueda{
+    background-color: white;
+    width:1vw;
+    height:1vh;
+    box-sizing: content-box;
+    border: 1px solid black;
+    margin-left: 0;
+}
+
+
+main section article img{
+    width:100%
+}
+
+main section article i, .discount{
+    color: #39b54a
+}
+.hijo{
+    margin-bottom: 40px;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding:5px
+}
+main section div.products img{
+    display:flex;
+    width:90%;
+    margin:0 auto
+}
+
+.main-article{
+    margin:5px;
+    padding:15px;
+margin-bottom: 10px;
+}
+
+.main-header-top-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+article .fa-truck{
+    transition:0.5s
+}
+
+article:hover .fa-truck{
+    transform:rotate(-90deg)
+}
+
+.truck-box{
+margin-bottom:10px;
+display:flex;
+justify-content: flex-end;
+      top:-50px
+  
+}
+
+.truck{
+display:flex;
+font-size: 20px;
+padding:5px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-radius:90%;
+color:#39b54a;
+border: #39b54a 1px solid;
+right: 20px;
+width:40px;
+height:40px;
+}
+
+
+.price-discount{
+    display:flex;
+    flex-direction: flex-start ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.price{
+    font-size: 18px;
+    flex-grow: 30;    
+}
+
+.discount{
+    display: flex;
+    font-size: 16px;
+    color:#39b54a;
+    flex-grow:70;
+    font-weight: bold;
+}
+
+.main-header{
+    background-color: #EAC926;
+    padding:20px
+}
+
+.hamburguer-button{
+    background-color: #072757;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px; 
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 15px;
+}
+.logo{
+    width:200px; 
+}
+
+.copy-header{
+    font-weight:400;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .copy-header h4{
+    font-size: 14px;
+  }
+  .copy-header i{
+   font-size: 12px;
+   position: relative;
+   right: 2px;
+   bottom: 1px;
+  }
+
+.main-navbar ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.main-navbar a {
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+    padding:5px 0;
+    font-size: 17px;
+    margin-bottom:15px
+}
+
+/*Formulario de Registro
+
+.create-form{
+    padding:20px 15px;
+    border: 10px, black dashed;
+    text-align:center
+
+}
+.boton-formulario{
+    background-color: #39b54a;
+    border: none;
+    font-size: 15px;
+    color:#FFF;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+    .formulary{
+        margin-left: 15px;
+        margin-bottom:10px;
+        border-radius: 5px;
+        font-style: italic;
+    }
+    .boton-formularios{
+        background-color: #39b54a;
+        border: none;
+        font-size: 14px;
+        color:#FFF;
+        padding:5px 10px;
+        border-radius: 5px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .button-form:hover{
+        background-color:#0022AA;
+        color:white;
+        border-radius: 5px;
+    }
+    .formulario{
+        margin-left: 10px;
+        line-height: normal;
+        width:100%;
+        margin-bottom:5px
+    }
+    .texto-form{
+        font-weight: bold;
+        color: black;
+        font-size: 14px;
+    }
+    .boton-formulario{
+        margin-left: 10px ; 
+        color:#0022AA;
+        background-color:white;
+       border-radius: 5px;
+    
+    }
+    .boton-formulario:hover{
+        background-color:#0022AA;
+        color:white;
+        border-radius: 5px;
+    }
+    .textoprincipal-form{
+        font-size: 18px;
+        margin-left: 0px;
+        color:#0022AA;
+        font-weight: bold;
+        background-color: white;
+    }
+    .formulario-de-registro{
+        background-color: #a1dff3;
+        margin-left:400px;
+        margin-right: 400px;
+        border-radius: 15px;
+        margin-bottom: 200px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    */
+    .offers,.last-visit{
+        margin-left:10px
+
+    }
+
+    /*Footer*/
+
+    main-footer{ 
+        background-color:#666;
+        padding: 20px 0;
+        margin-top: 80px;
+    
+    }
+    
+    .footer-product:hover{
+        color: #0022AA;
+    }
+    
+    
+    .fa-credit-card, .fa-user-shield, .fa-gift{
+        color: #0022AA;
+        font-size: 2em;
+        margin-bottom: 10px
+    ;
+    }
+    .fa-credit-card:hover, .fa-user-shield:hover, .fa-gift:hover{
+        color: #0cb2ee;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-product{
+        text-align: center;
+        font-size: 15px;  
+            font-weight: 400;
+            font-size: 1.5em;
+            font-weight: 300;
+          }
+    
+    
+    
+    .text-footer-tit{
+        font-size: 2px;
+        font-weight: bold;;
+    }
+    
+    .text-footer{
+        font-size: 12px;;
+    }
+    
+    .copyright{
+        font-size: 15px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+            margin: 0;
+      padding: 15px 0;
+      border-top: 1px solid var(--light-gray);
+      color: var(--gray);
+          }
+    
+
+    .main-navbar a{
+     display: none;
+    }
+
+@media(min-width:361px){
+    
+    main section div.products article{
+        width:47%
+    }
+
+    .logo{
+        display: flex;
+        width:300px;
+        width:30vw
+            }
+            .barra-busqueda{
+                display:flex;
+                width: 30vw;
+            }
+    .main-header-top-bar, .main-navbar{
+        display:flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin:auto;
+       
+    }
+     .main-header-top-bar{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+            .copy-header{
+                margin:0;
+                max-width: none;
+                font-size:16px;
+                font-weight: bold;
+                align-items: center;
+                text-align: right;
+                width: 30vw;
+              
+            }
+            .hamburguer-button{
+                display: none;
+            }
+            .main-navbar{
+                display:flex;
+                margin-top: 40px;
+                justify-content: space-between;
+            }
+            .main-navbar li{
+    margin:0 10px;
+            }
+            .main-navbar ul{
+                display:flex
+            }
+            .main-navbar a{
+                text-decoration: none;
+             display: inline-block;
+                padding:5px 0;
+                font-size: 19px;
+            }
+
+
+  
+    article:hover .description{
+        display:block
+    }
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100,100,100)    }
+}
+main section div.products{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:5px;
+    border:5px;
+    margin: 10px;
+    width:100%
+}
+
+.price,.discount{
+    display: inline-block;
+    width:50%
+}
+
+
+
+@media(min-width:768px){
+ 
+ 
+    main section div.products article{
+        width:24%
+    }
+article:hover .description{
+    display: block;
+}
+article .description{
+display: none ;
+}
+
+.price,.discount{
+    display: inline-block;
+    width:50%
+}
+   
+    .hamburguer-button{
+        display: none;
+    }
+
+    @media(min-width: 1200px){
+   
+        
+    }
+}
