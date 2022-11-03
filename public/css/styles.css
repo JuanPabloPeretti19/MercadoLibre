@@ -85,15 +85,14 @@ div.burger-menu{
 }
 
 
-
-
-
 div.last-visit,div.offers{
     display:flex;
     flex-wrap: wrap;
     font-size: 15px;
     color:#666
 }
+
+
 .products{
 background-color: #ebebeb
 }
@@ -121,9 +120,6 @@ header .form .submit{
     width:10%
 }
 
-
-
-
 h3,
 .description{
     color: #666;
@@ -137,8 +133,7 @@ main{
     width: 90%;
 }
 
-.main-header_home-link,
-.main-header-top-bar{
+.main-header_home-link{
   display: block;
 }
 
@@ -274,19 +269,17 @@ height:40px;
 .copy-header{
     font-weight:400;   
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 10px;
   }
+
   .copy-header h4{
     font-size: 14px;
   }
-  .copy-header i{
-   font-size: 12px;
-   position: relative;
-   right: 2px;
-   bottom: 1px;
-  }
+
 
 .main-navbar ul {
     list-style: none;
@@ -302,7 +295,7 @@ height:40px;
     margin-bottom:15px
 }
 
-/*Formulario de Registro
+/*Formulario de Registro */
 
 .create-form{
     padding:20px 15px;
@@ -379,6 +372,7 @@ height:40px;
         margin-bottom: 200px;
         text-align: center;
         margin-bottom: 10px;
+        
     }
 
     */
@@ -393,7 +387,8 @@ height:40px;
         background-color:#666;
         padding: 20px 0;
         margin-top: 80px;
-    
+    margin-left: 200px;
+    margin-right: 200px;
     }
     
     .footer-product:hover{
@@ -487,7 +482,6 @@ height:40px;
                 font-weight: bold;
                 align-items: center;
                 text-align: right;
-                width: 30vw;
               
             }
             .hamburguer-button{
@@ -549,6 +543,12 @@ article:hover .description{
 }
 article .description{
 display: none ;
+}
+
+.main-header{
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .price,.discount{
